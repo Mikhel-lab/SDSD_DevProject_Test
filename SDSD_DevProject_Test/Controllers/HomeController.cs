@@ -106,7 +106,7 @@ namespace SDSD_DevProject_Test.Controllers
 
                 MailMessage msg = new MailMessage  // instance Mail sender service
                 {
-                    From = new MailAddress("paulbreakthru@gmail.com"),  // Server Email Address
+                    From = new MailAddress("michael.aiyetanjnr03@gmail.com"),  // Server Email Address
                 };
                 msg.To.Add(model.Email); // receiver Email
 
@@ -127,7 +127,7 @@ namespace SDSD_DevProject_Test.Controllers
                 };
                 NetworkCredential credential = new NetworkCredential
                 {  // Server Email credentisal
-                    UserName = "paulbreakthrusmtp@gmail.com",
+                    UserName = "michael.aiyetanjnr03@gmail.com",
                     Password = "@Alpha1234"
                 };
                 client.Credentials = credential;
