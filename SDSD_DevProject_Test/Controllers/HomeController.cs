@@ -128,9 +128,8 @@ namespace SDSD_DevProject_Test.Controllers
                 NetworkCredential credential = new NetworkCredential
                 {  // Server Email credentisal
                     UserName = "#########################################",
-                    //UserName = "mikemariabis74smtp@gmail.com",
                     Password = "###################"
-                    // Password = "icui4cubis"
+                   
                 };
                 client.Credentials = credential;
                 client.EnableSsl = true;
